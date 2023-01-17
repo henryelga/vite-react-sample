@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import rubiks from './rubiks.png'
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <p>
           Learning to run React locally using Vite
         </p>
+        <img src={rubiks} alt="Rubiks Cube" />
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
